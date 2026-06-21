@@ -786,12 +786,12 @@ function finalReveal(){
 
     <button onclick="copyCode(this)">Copy Code</button>
     `;
-    scrambleInto(document.getElementById('finalCode'), 'YOUR-XBOX-CODE-HERE', 1000);
+    scrambleInto(document.getElementById('finalCode'), '9RTY3-RCWFY-DFYDC-FHJMQ-F6K2Z', 1000);
   });
 }
 
 function copyCode(btn){
-  navigator.clipboard.writeText('YOUR-XBOX-CODE-HERE');
+  navigator.clipboard.writeText('9RTY3-RCWFY-DFYDC-FHJMQ-F6K2Z');
   const original = btn.textContent;
   btn.textContent = 'Copied!';
   setTimeout(()=>{ btn.textContent = original; }, 1500);
